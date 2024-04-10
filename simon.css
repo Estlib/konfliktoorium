@@ -1,39 +1,27 @@
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-}
-
-h2 {
-    color: #333;
+#simon-sassian-section h2 {
+    color: #800000; /* Dark Red */
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+#simon-sassian-section ul li {
+    color: #333; /* Dark Gray */
 }
 
-li {
-    margin-bottom: 8px;
-}
-
-strong {
+#simon-sassian-section strong {
+    color: #800000; /* Dark Red */
     font-weight: bold;
 }
 
-a {
-    color: #007bff;
+#simon-sassian-section a {
+    color: #800000; /* Dark Red */
     text-decoration: none;
 }
 
-    a:hover {
-        text-decoration: underline;
-    }
+#simon-sassian-section a:hover {
+    text-decoration: underline;
+}
 
 #simon-sassian-section {
     background-color: #fff;
@@ -43,7 +31,7 @@ a {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-img {
+#simon-sassian-section img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
