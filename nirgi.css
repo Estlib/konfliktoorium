@@ -76,6 +76,8 @@
 }
 
 .vscode-section {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     font-family: sans-serif !important;
     background-color: rgb(21, 43, 72);
