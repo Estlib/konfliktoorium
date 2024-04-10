@@ -26,3 +26,42 @@
     white-space: pre;
     margin: 0;
 }
+
+.hl2-title {
+    font-size: 2rem;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.steam-button {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(50, 50, 60);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    transition-duration: 200ms;
+}
+
+.steam-button:hover {
+    background-color: rgb(65, 65, 80);
+}
+
+.steam-button:active {
+    background-color: rgb(30, 30, 30);
+}
+
+.vscode-section {
+    font-family: sans-serif;
+    background-color: rgb(21, 43, 72);
+    color: rgb(240, 240, 240);
+    padding: 1em;
+    letter-spacing: 1px;
+}
