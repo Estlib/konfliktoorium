@@ -5,6 +5,10 @@
     letter-spacing: 1px;
 }
 
+.game-section h2 {
+    text-transform: uppercase;
+}
+
 .game-link {
     color: white;
 }
@@ -15,4 +19,16 @@
 
 .description-p {
     font-size: 1.1rem;
+}
+
+.wrap-p {
+    word-wrap: break-word;
+    white-space: pre;
+    margin: 0;
+}
+
+.hl2-title {
+    font-size: 2rem;
+    letter-spacing: 8px;
+    text-transform: uppercase;
 }
