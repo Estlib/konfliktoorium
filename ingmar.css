@@ -1,0 +1,23 @@
+.game-box {
+    border: 2px solid #333; 
+    padding: 20px; width: 500px; 
+    background-color: #f0f0f0; 
+    color: black; 
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.game-title {
+    color: red;
+}
+
+.fifa-main-image {
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+.game-desc {
+    text-align: center;
+    margin-right: 20px;
+}
