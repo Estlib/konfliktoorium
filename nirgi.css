@@ -5,6 +5,10 @@
     letter-spacing: 1px;
 }
 
+.game-section h2 {
+    text-transform: uppercase;
+}
+
 .game-link {
     color: white;
 }
