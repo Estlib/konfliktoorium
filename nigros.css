@@ -7,6 +7,7 @@
     color: rgb(245, 245, 245);
     font-size: 18px;
     padding: 1em;
+    text-align: left !important;
 }
 
 .nigro-section h1, h2, p, label {
@@ -23,7 +24,33 @@
 }
 
 
-.nigro-title { text-transform: uppercase; letter-spacing: 0.2rem; }
+.nigro-process-li {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
+.nigro-main-title {
+    background-color: rgb(254, 63, 63) !important;
+    color: black !important;
+    text-align: center;
+    font-weight: 800;
+    padding: 1rem;
+    margin-bottom: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.nigro-title { 
+    width: 100%;
+    background-color: rgb(254, 63, 63) !important;
+    color: black !important;
+    padding: 0.2em;
+    text-transform: uppercase; 
+    letter-spacing: 0.2rem; 
+}
+
+
 .m0 { margin: 0; }
 .pre { white-space: pre; }
 .w05 { width: 50%; }
