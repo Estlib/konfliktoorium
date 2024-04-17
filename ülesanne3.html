@@ -123,10 +123,20 @@
     </div>
     <div>
     <p>
-        <h3>Salespitch</h3>
-            Meie veebileht ja app on kiirem, lihtsam kasutada ja leiab informatsiooni kergelt.
-        <h3>Analüüs</h3>
-        <p>Tahvlit on uuendatud koguaeg ja ikka see ei tööta. Õpilased on prrovinud alternatiivset programmi teha, aga ei õnnestund, sest nad ei tea kuidas tahvel töötab, et seda on veidikene raske kopeerida. Ekool on yks ja ainuke lahendus.<br></p>
+        <button class="button" onclick='triggerDropDown("first-case-tool-dropdown")'>
+            Salespitch
+        </button>
+        <div id="first-case-tool-dropdown" style="display: none">
+
+            <p>Meie veebileht ja app on kiirem, lihtsam kasutada ja leiab informatsiooni kergelt.</p>
+        </div>
+        <button class="button" onclick='triggerDropDown("second-case-tool-dropdown")'>
+            Analüüs
+        </button>
+        <div id="second-case-tool-dropdown" style="display: none">
+
+            <p>Tahvlit on uuendatud koguaeg ja ikka see ei tööta. Õpilased on prrovinud alternatiivset programmi teha, aga ei õnnestund, sest nad ei tea kuidas tahvel töötab, et seda on veidikene raske kopeerida. Ekool on yks ja ainuke lahendus.<br></p>
+        </div>
         <h3>Eesmärk</h3>
         <p>Selle lahenduse eesmärk on see et, see teeks hinnete vaatamise ja lisamise mugavamaks nii õpilastele kui ka õpetajatele.<br>
         See teeb ka lihtsamaks et saada informatsiooni.<br></p>
@@ -148,6 +158,18 @@
 </p>
         
 </div>
+
+<script>
+    
+    function triggerDropDown(Id) {
+        var dropdown = document.getElementById(Id);
+        if (dropdown.style.display === "none") {
+            dropdown.style.display = "block";
+        } else {
+            dropdown.style.display = "none";
+        }
+    }
+</script>
 
 
 <div class="separator teamseparator" style="display: flex; flex-direction: column;">
