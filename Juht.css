@@ -1,6 +1,10 @@
-body {
-    background: #262a2b;
-  }
+.EpicJuhtTitle {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  text-align: center;
+  font-size: xx-large;
+}
+
   .tilesWrap {
     padding: 0;
     margin: 50px auto;
