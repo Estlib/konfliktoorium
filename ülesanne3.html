@@ -26,13 +26,16 @@
             text-align: center;
         }
         .separator h1{
+            font-size: 80px !important;
             background-color: rgb(152, 152, 152) !important;
-            color: rgb(145, 39, 39);
+            color: rgb(255, 255, 255);
             font-family: sans-serif;
             text-align: center;
+
         }
         .teamseparator {
-            border: 10px !important;
+            border-style: solid;
+            border-width: 10px !important;
             border-color: white !important;
         }
     </style>
@@ -77,10 +80,12 @@
 <div class="separator teamseparator">
     <p>
         <h1>MEESKONNANIMI</h1>
-        <table>
-            <td >
-                    <h2>MEESKONNA SLOGAN</h2>
-                    MEESKONNA LOGO
+        <table align="center">
+            <td>
+                <h2>MEESKONNA SLOGAN</h2>
+            </td>
+            <td>                
+                MEESKONNA LOGO
             </td>
         </table> 
         
@@ -119,14 +124,17 @@
         Meeskonnaliikmed: Nirgi, Juht, Sassian
     </p>
 </div>
+<link rel="stylesheet" href="nigros.css">
 <section class="nigro-section">
-    <h1>TTHK Tunniplaani API</h1>
-    <h1>Probleem</h1>
-    <p>
-        Hetkel, kui tahame teada oma kooli tunniplaani, peame minema
-        ....... to doo
+    <h1 class="nigro-title">TTHK Tunniplaani API</h1>
+    <span><strong>Tüüp: </strong><label>Lisatöö tarkvaraarendajatele</label></span>
+    <span><strong>Platvorm: </strong><label class="nigro-special">Universaalne</label></span>
+    <h1 class="nigro-title">Probleem</h1>
+    <p class="w075 pre m0">
+Hetkel, kui tahame teada oma kooli tunniplaani, peame minema
+TTHK kodulehele, vaatama muudatusi ja siis eraldi minema EduPage tunniplaani lehele.
+Meie arust on see tüütu. Seega võiks luua API, mis soodustaks koolile uue tunniplaani frontendi tegemise. 
     </p>
-    <label>Lisatöö tarkvaraarendajatele</label>
 </section>
 
 
