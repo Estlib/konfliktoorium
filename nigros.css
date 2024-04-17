@@ -28,3 +28,9 @@
 .pre { white-space: pre; }
 .w05 { width: 50%; }
 .w075 { width: 75%; }
+
+
+.ekool-container {
+    background-color: rgb(198, 67, 254) !important;
+    font-size: 1px !important;
+}
