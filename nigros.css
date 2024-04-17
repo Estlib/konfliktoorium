@@ -30,6 +30,17 @@
 }
 
 
+.nigro-main-title {
+    background-color: rgb(254, 63, 63) !important;
+    color: black !important;
+    text-align: center;
+    font-weight: 800;
+    padding: 1rem;
+    margin-bottom: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
 .nigro-title { 
     width: 100%;
     background-color: rgb(254, 63, 63) !important;
