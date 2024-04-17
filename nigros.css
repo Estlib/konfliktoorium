@@ -24,6 +24,12 @@
 }
 
 
+.nigro-process-li {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
 .nigro-title { text-transform: uppercase; letter-spacing: 0.2rem; }
 .m0 { margin: 0; }
 .pre { white-space: pre; }
