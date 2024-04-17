@@ -18,6 +18,10 @@
     color: rgb(254, 63, 63);
 }
 
+.nigro-special {
+    color: rgb(198, 67, 254);
+}
+
 
 .nigro-title { text-transform: uppercase; letter-spacing: 0.2rem; }
 .m0 { margin: 0; }
