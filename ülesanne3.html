@@ -26,13 +26,16 @@
             text-align: center;
         }
         .separator h1{
+            font-size: 80px !important;
             background-color: rgb(152, 152, 152) !important;
-            color: rgb(145, 39, 39);
+            color: rgb(255, 255, 255);
             font-family: sans-serif;
             text-align: center;
+
         }
         .teamseparator {
-            border: 10px !important;
+            border-style: solid;
+            border-width: 10px !important;
             border-color: white !important;
         }
     </style>
@@ -77,58 +80,81 @@
 <div class="separator teamseparator">
     <p>
         <h1>MEESKONNANIMI</h1>
-        <table>
-            <td >
-                    <h2>MEESKONNA SLOGAN</h2>
-                    MEESKONNA LOGO
+        <table align="center">
+            <td>
+                <h2>MEESKONNA SLOGAN</h2>
+            </td>
+            <td>                
+                MEESKONNA LOGO
             </td>
         </table> 
         
         Meeskonnaliikmed: 1 || 2 || 3 || 4 || 5 || 6 
     </p>
-</div>
+</div> </br></br></br></br></br></br>
+
 <div class="separator teamseparator">
     <p>
         <h1>E_Kool</h1>
-        <table>
-            <td >
-                    <h2>Tahvel on pask</h2>
-                    <img src="meeskonnalogho.png">
+        <table align="center">
+            <td>
+                <h2>Tahvel on pask</h2>
+            </td>
+            <td>                
+                <img src="meeskonnalogho.png">
             </td>
         </table> 
         
         Meeskonnaliikmed: Kristo || Kuurits || Marken || Lemming || Ingmar || Rohusaar 
     </p>
 </div>
+
 <div style="e_kool.css">
     <p>
-        Tahvel on halb kuna sealt on raske leida informatsiooni, õpetajate kodutööd ei lähe mõnikord üles ja tunniplaani ei ole näha. ekool on parem.
-
-        Selle lahenduse eesmärk on see et, see teeks kõik palju mugavamaks ja kergemaks.
+        Tahvel on halb kuna sealt on raske leida informatsiooni, õpetajate kodutööd ei lähe mõnikord üles ja tunniplaani ei ole näha.<br> 
+        Lisaks see on aeglane, peab sisselogima id-ga ning kui sa afk 2min see viskab sind välja. ekool on parem. <br>
+        kõik OS-id sobivad, kus on olemas web browser.
+        <h3>Salespitch</h3>
+        Meie veebileht ja app on kiirem, lihtsam kasutada ja leiab informatsiooni kergelt.
     </p>
 </div>
+
 
 <div class="separator teamseparator" style="display: flex; flex-direction: column;">
     <p>
         <h1>Kolm Tegelast</h1>
-        <table>
-            <td >
+        <table align="center">
+            <td>
                 <h2>Oleme Nirgod</h2>
+            </td>
+            <td>                
                 <img src="nigrologo.png">
             </td>
         </table> 
         
-        Meeskonnaliikmed: Nirgi, Juht, Sassian
+        Meeskonnaliikmed: Nirgi || Juht || Sassian
     </p>
 </div>
+
+<link rel="stylesheet" href="nigros.css">
 <section class="nigro-section">
-    <h1>TTHK Tunniplaani API</h1>
-    <h1>Probleem</h1>
-    <p>
-        Hetkel, kui tahame teada oma kooli tunniplaani, peame minema
-        ....... to doo
+    <h1 class="nigro-title">TTHK Tunniplaani API</h1>
+    <span><strong>Tüüp: </strong><label>Lisatöö tarkvaraarendajatele</label></span>
+    <span><strong>Platvorm: </strong><label class="nigro-special">Server</label></span>
+
+    <h1 class="nigro-title">Probleem</h1>
+    <p class="w075 pre m0">
+Hetkel, kui tahame teada oma kooli tunniplaani, peame minema
+TTHK kodulehele, vaatama muudatusi ja siis eraldi minema EduPage tunniplaani lehele.
+Meie arust on see tüütu. Seega võiks luua API, mis soodustaks koolile uue tunniplaani frontendi tegemiseS. ss
     </p>
-    <label>Lisatöö tarkvaraarendajatele</label>
+
+    <h1 class="nigro-title">Eesmärk</h1>
+    <p class="w075 pre m0">
+Selle lahenduse eesmärk oleks anda õpilastele võimalust kasutada TTHK tunniplaani
+oma programmides ja luua nende andmetega front-end lahendus.
+Sellised lahendused võimaldaksid meil luua ühine platvorm tunniplaaniga seotud asjade jaoks
+    </p>
 </section>
 
 
