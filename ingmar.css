@@ -54,6 +54,11 @@
 
 .typescript-body-text {
     font-size: 20px !important;
+    margin-top: 15px;
+}
+
+.typescript-body-text-title {
+    font-size: 30px;
     margin-top: 50px;
 }
 
