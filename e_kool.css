@@ -8,13 +8,9 @@
     text-align: center;
 }
 
-.ekool-titlelogo {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 .button {
     margin: 10px;
+    width: 200px;
     padding: 15px 32px ;
     background-color: darkred;
     color: white;
@@ -28,5 +24,9 @@
 
 .button:hover {
     background-color: rgb(97, 10, 10);
+}
+
+.buttons {
+    margin-top: 30px;
 }
 
