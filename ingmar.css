@@ -17,3 +17,13 @@
 .game-desc {
     margin-right: 20px;
 }
+
+.typescript-content {
+    background-color: white;
+    padding: 100px;
+}
+
+h1 {
+    background-color: transparent;
+    color: red;
+}
