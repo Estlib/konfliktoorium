@@ -21,6 +21,9 @@
 .typescript-content {
     background-color: white;
     padding: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    
 }
 
 .typescript-title {
@@ -32,3 +35,16 @@
     color: red;
     text-align: center;
 }
+
+.typescript-header {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.typescript-header-info {
+    color: black;
+    max-height: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
