@@ -27,7 +27,6 @@
     scrollbar-width: none;
     max-height: 600px;
     color: black;
-    
 }
 
 .typescript-title {
@@ -50,6 +49,7 @@
     max-height: 30px;
     margin-left: 40px;
     font-size: 20px;
+    max-width: 20%;
 }
 
 .typescript-body-text {
@@ -75,3 +75,4 @@
 .typescript-pros-cons th, td {
     padding: 15px;
   }
+
