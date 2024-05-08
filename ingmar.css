@@ -23,6 +23,10 @@
     padding: 100px;
     border: 1px solid black;
     border-radius: 50px;
+    overflow-y: scroll  !important;
+    scrollbar-width: none;
+    max-height: 600px;
+    color: black;
     
 }
 
@@ -46,5 +50,10 @@
     max-height: 30px;
     margin-left: 20px;
     font-size: 20px;
+}
+
+.typescript-body-text {
+    font-size: 20px !important;
+    margin-top: 50px;
 }
 
