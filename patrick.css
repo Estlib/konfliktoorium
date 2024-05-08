@@ -1,28 +1,28 @@
-#test {
+#patrick-test {
     font-family: 'Comic Sans MS';
     color: white;
 }
 body{
     color: white ;
 }
-#linkcolor{
+#patrick-linkcolor{
     color: white;
 }
 
-#whiteoutline {
+#patrick-whiteoutline {
     font-size:xx-large;
 }
 
-#whiteinline {
+#patrick-whiteinline {
   font-size: medium;
 }
 
-html, body {
+#patrick-section html, p {
     width: 100%;
     height:100%;
   }
   
-  body {
+#patrick-section {
     background: rgb(19,106,236);
     background: radial-gradient(circle, rgba(19,106,236,1) 0%, rgba(40,19,236,1) 35%, rgba(19,215,236,1) 100%);       background-size: 120% 100%;
       animation: gradient 180s ease infinite;
@@ -40,14 +40,14 @@ html, body {
       }
   }
 
-#Waterfall1Text {
+#patrick-Waterfall1Text {
     font-weight: bold;
 }
 
-#linkcolor {
+#patrick-section linkcolor {
     color: #2c5282; /* Dark blue color */
 }
 
-#textcolor {
+#patrick-textcolor {
     color: #404040;
 }
