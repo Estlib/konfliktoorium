@@ -51,7 +51,23 @@
     color: white;
 }
 
-.Postman table, th, td {
+.Postman table {
+    font-family: Arial;
+    color: white;
+    border: 1px solid #ac9e9e;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.Postman th {
+    font-family: Arial;
+    color: white;
+    border: 1px solid #ac9e9e;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.Postman td {
     font-family: Arial;
     color: white;
     border: 1px solid #ac9e9e;
