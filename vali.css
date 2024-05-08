@@ -34,10 +34,48 @@
     border-radius: 40px;
 }
 
+.Postman div {
+    background-color: black;
+    border-radius: 20px;
+    padding: 0.25em;
+    max-height: 100%;
+    max-width: 90%;
+}
+
 .Postman ul {
     list-style-type: none;
 }
 
 .Postman li {
     font-family: Arial;
+    color: white;
+}
+
+.Postman table {
+    font-family: Arial;
+    color: white;
+    border: 1px solid #ac9e9e;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.Postman th {
+    font-family: Arial;
+    color: white;
+    border: 1px solid #ac9e9e;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.Postman td {
+    font-family: Arial;
+    color: white;
+    border: 1px solid #ac9e9e;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.Postman a {
+    font-size: x-large;
+    color: blueviolet;
 }
