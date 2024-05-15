@@ -145,13 +145,18 @@
     display: list-item;
     list-style-type: "🤯";
     padding-inline-start: 1ch;
+    color: #000;
   }
   
 
   h2 {
-    color: white;
+    color: black;
   }
 
   li {
-    color: white
+    color: black
+  }
+
+  #Juht {
+    background-color: beige;
   }
