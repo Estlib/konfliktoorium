@@ -49,6 +49,20 @@
     flex-direction: row !important;
 }
 
+.art-header-info {
+    color: black;
+    max-height: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    max-width: 30%;
+    margin-top: 7%;
+}
+
+.art-header {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
 .typescript-header-info {
     color: black;
     max-height: 30px;
