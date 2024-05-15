@@ -18,7 +18,7 @@
     margin-right: 20px;
 }
 
-.typescript-content {
+.main-content {
     background-color: white;
     padding: 100px;
     border: 1px solid black;
@@ -30,7 +30,7 @@
 }
 
 
-.typescript-font {
+.main-font {
   font-family: "Asap", sans-serif;
 }
 
@@ -97,5 +97,10 @@
 
   .typescript-links:visited {
     color: black;
+  }
+
+  .margaret-keane {
+    width: 20%;
+    border-radius: 50%;
   }
 
