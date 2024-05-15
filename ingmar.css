@@ -82,7 +82,7 @@
   }
 
   .typescript-links {
-    color: darkred;
+    color: darkred !important;
   }
 
   .typescript-links:hover {
