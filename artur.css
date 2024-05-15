@@ -12,3 +12,13 @@
 #arturAlapealkirjad {
     color: #555;
 }
+
+#arutur-section{
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+#pealkiriArtur{
+    font-size: 64px;
+}

@@ -29,11 +29,6 @@
     color: black;
 }
 
-
-.typescript-font {
-  font-family: "Asap", sans-serif;
-}
-
 .typescript-title {
     margin-top: -2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -79,23 +74,5 @@
 
 .typescript-pros-cons th, td {
     padding: 15px;
-  }
-
-
-  .typescript-links li a {
-    color: darkred;
-  }
-
-  .typescript-links {
-    color: darkred;
-  }
-
-
-  .typescript-links:hover {
-    color: black;
-  }
-
-  .typescript-links:visited {
-    color: black;
   }
 
