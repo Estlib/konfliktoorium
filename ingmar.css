@@ -76,3 +76,21 @@
     padding: 15px;
   }
 
+
+  .typescript-links li a {
+    color: darkred;
+  }
+
+  .typescript-links {
+    color: darkred;
+  }
+
+
+  .typescript-links:hover {
+    color: black;
+  }
+
+  .typescript-links:visited {
+    color: black;
+  }
+
