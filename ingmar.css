@@ -29,6 +29,11 @@
     color: black;
 }
 
+
+.typescript-font {
+  font-family: "Asap", sans-serif;
+}
+
 .typescript-title {
     margin-top: -2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
