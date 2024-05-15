@@ -99,19 +99,13 @@
 </div> </br></br></br></br></br></br>
 
 <div class="separator teamseparator">
-    <p>
-        <h1>E_Kool</h1>
-        <div class="ekool-titlelogo">
-            <td>
-                <h2>"Tahvel on pask"</h2>
-            </td>
-            <td>                
-                <img src="meeskonnalogho.png">
-            </td>
-        </div> 
+    <h1>E_Kool</h1>
+    <div>
+        <h2 style="font-weight: bold; margin: 20px;">"Tahvel on pask"</h2>
+        <img style="margin: auto; margin-bottom: 20px;" src="meeskonnalogho.png">
+    </div> 
         
-        Meeskonnaliikmed: Kristo || Kuurits || Marken || Lemming || Ingmar || Rohusaar 
-    </p>
+    <p style="margin-bottom: 10px;">Meeskonnaliikmed: Kristo || Kuurits || Marken || Lemming || Rohusaar</p>
 </div>
 
 <link rel="stylesheet" href="e_kool.css">
@@ -123,34 +117,42 @@
     </div>
 
     <div>
-        <p><span><strong>Tüüp: </strong><label>tarkvaraarendajatele natuke lisatääd</label></span><br>
-        <span><strong>Platvorm: </strong>Server</span></p>
+        <p style="margin-top: 10px;"><span><strong>Tüüp: </strong><label>tarkvaraarendajatele natuke lisatööd</label></span></p>
+        <p style="margin-top: 10px;"><span><strong>Platvorm: </strong>Server</span></p>
     </div>
-    <div>
+    <div class="buttons">
         <button class="button" onclick='triggerDropDown("salespitch")'>
             Salespitch
         </button>
-        <div id="first-case-tool-dropdown" style="display: none">
-
-            <p>Meie veebileht ja app on kiirem, actually täätab, lihtsam kasutada ja leiab informatsiooni kergelt. See ka näeb ilusam välja ja on seal on võimalik enda tunniplaani näha ning kodutööde tähtajad</p>
+        <div id="salespitch" style="display: none">
+            <p>Meie veebileht ja app on kiirem, actually töötab, lihtsam kasutada ja leiab informatsiooni kergelt. See ka näeb ilusam välja ja on seal on võimalik enda tunniplaani näha ning kodutööde tähtajad</p>
         </div>
+        <br>
 
         <button class="button" onclick='triggerDropDown("analysis")'>
             Analüüs
         </button>
         <br>
         <div id="analysis" style="display: none">
-            <p>Tahvlit on uuendatud koguaeg ja ikka see ei tööta. Õpilased on prrovinud alternatiivset programmi teha, aga ei õnnestund, sest nad ei tea kuidas tahvel töötab, et seda on veidikene raske kopeerida. Ekool on yks ja ainuke lahendus.<br></p>
+            <p>Tahvlit on uuendatud koguaeg ja ikka see ei tööta normaalselt. kõik keda ma tean, kes kasutavad tahvlit räägivad koguaeg kui halb ja ebamugav see on ning kuidas nad igatsevad ekooli. Õpilased on proovinud alternatiivset programmi teha, aga ei õnnestund, sest nad ei tea kuidas tahvel töötab, et seda on veidikene raske kopeerida. Ekool on yks ja ainuke lahendus.<br></p>
         </div>
 
-
         <button class="button" onclick='triggerDropDown("goal")'>
-            Eesmärk Selle lahenduse eesmärk on see et, see teeks hinnete vaatamise ja lisamise mugavamaks nii õpilastele kui ka õpetajatele.<br>
-            See teeb ka lihtsamaks et saada informatsiooni.
+            Eesmärk
         </button>
+        <div id="goal" style="display: none">
+            <p>Selle lahenduse eesmärk on see et, see teeks hinnete vaatamise ja lisamise mugavamaks nii õpilastele kui ka õpetajatele.<br>
+                See teeb ka lihtsamaks et saada informatsiooni.<br></p>
+        </div>
         <br>
-        <h3>Juhis by юхть</h3>
-        Esilehel on näha keskel üleval tunniplaani koos sinu kursusega seotud tunniplaani muudatusdega. sellest paremal on näha koduseidtöid ja nende tähtaeg. Vasakul pool veebilehte on sidebar, kus leidub infot sinu kursuse õpetajate kohta näiteks, mis ainet nad õpetavad, ja õppetoetused, kust saab taodelta stippi ehk viina raha.
+
+        <button class="button" onclick='triggerDropDown("instructions")'>
+            Juhis by юхть
+        </button>
+        <div id="instructions" style="display: none">
+            <p>Esilehel on näha keskel üleval tunniplaani koos sinu kursusega seotud tunniplaani muudatusdega. sellest paremal on näha koduseidtöid ja nende tähtaeg. Vasakul pool veebilehte on sidebar, kus leidub infot sinu kursuse õpetajate kohta näiteks, mis ainet nad õpetavad, ja õppetoetused, kust saab taodelta stippi ehk viina raha.<br></p>
+        </div>
+    
     </div>
         
 </div>
@@ -283,7 +285,7 @@
             <table align="center">
                 <td>
                     <h2>me ei ole homot</h2>
-                </td>
+                </td><br>
                 <td>                
                     <img src="logo.png">
                 </td>

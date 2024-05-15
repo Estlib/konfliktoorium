@@ -1,3 +1,14 @@
+/* Gmae
+  ÜL I
+*/
+
+.putsis {
+ color: #fff;
+}
+
+/* Boxes 
+  ÜL II
+*/
 .EpicJuhtTitle {
   font-family: 'Times New Roman', Times, serif;
   color: #fff;
@@ -128,4 +139,24 @@
     background: #FC354C;
   background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
   background: linear-gradient(to right, #0ABFBC, #FC354C);
+  }
+
+  dd {
+    display: list-item;
+    list-style-type: "🤯";
+    padding-inline-start: 1ch;
+    color: #000;
+  }
+  
+
+  h2 {
+    color: black;
+  }
+
+  li {
+    color: black
+  }
+
+  #Juht {
+    background-color: beige;
   }
