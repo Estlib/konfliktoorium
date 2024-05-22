@@ -40,6 +40,14 @@ h1 {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(180, 120, 0) !important;
 }
+.somewhat{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(102, 180, 0) !important;
+}
+.soclose{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(180, 81, 0) !important;
+}
 .table{
     border-style: solid;
     border-width: 10px !important;
