@@ -2,7 +2,7 @@
     background-color: #d8ccb4;
     color: black;
     text-align: center;
-    padding: 3%;
+    padding: 20px;
 }
 
 #arturSecondary {
@@ -11,4 +11,55 @@
 
 #arturAlapealkirjad {
     color: #555;
+}
+
+#arutur-section{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#arturDiv2{
+    background-color: white;
+    color: black;
+    padding: 5%;
+    width: 30%;
+    border-radius: 3%;
+}
+
+#pealkiriArtur{
+    font-size: 64px;
+}
+
+#arturTable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#arturTR{
+    background-color: #999;
+}
+
+#arturTH, #arturTD{
+    border: 1px solid #333;
+    text-align: left;
+    padding: 8px;
+}
+
+#arturDIV4{
+    border-radius: 5%;
+    padding: 5%;
+    width: 75%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#arturH1{
+    background-color: black;
+    color: #333;
+}
+
+#arturP{
+    color: #888;
 }
