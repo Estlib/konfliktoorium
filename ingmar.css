@@ -18,7 +18,7 @@
     margin-right: 20px;
 }
 
-.typescript-content {
+.main-content {
     background-color: white;
     padding: 100px;
     border: 1px solid black;
@@ -27,6 +27,11 @@
     scrollbar-width: none;
     max-height: 600px;
     color: black;
+}
+
+
+.main-font {
+  font-family: "Asap", sans-serif;
 }
 
 .typescript-title {
@@ -40,6 +45,20 @@
 }
 
 .typescript-header {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.art-header-info {
+    color: black;
+    max-height: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    max-width: 30%;
+    margin-top: 7%;
+}
+
+.art-header {
     display: flex !important;
     flex-direction: row !important;
 }
@@ -76,3 +95,31 @@
     padding: 15px;
   }
 
+
+  .typescript-links li a {
+    color: darkred;
+  }
+
+  .typescript-links {
+    color: darkred;
+  }
+
+
+  .typescript-links:hover {
+    color: black;
+  }
+
+  .typescript-links:visited {
+    color: black;
+  }
+
+  .margaret-keane {
+    width: 20%;
+    border-radius: 50%;
+  }
+
+
+  #keane-art {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
