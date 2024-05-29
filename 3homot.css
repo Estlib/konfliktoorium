@@ -1,0 +1,15 @@
+#homotDiv {
+    background-color: beige;
+    color: black;
+    text-align: center;
+}
+
+#homotH2 {
+    font-size: 32px;
+}
+
+#homotIMG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
