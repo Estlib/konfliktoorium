@@ -216,4 +216,115 @@
     </p>
 </tbody>
 </separator>
+
+<div class="bg-slate-900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <div class="w-full h-fit">
+        <div class="flex flex-row gap-4">
+            <button onclick="toggleExerciseInfo()" class="bg-blue-500 text-white px-5 rounded-md hover:bg-blue-600 hover:cursor-pointer hover:scale-105 active:scale-95 active:bg-blue-700 duration-200">Vaata ülesande juhendit</button>
+            <button onclick="enableEasyRead()" class="bg-green-500 hover:bg-green-600 hover:cursor-pointer active:bg-green-700 text-white px-5 py-2 duration-200 rounded-md">Lihtsusta tekst</button>
+        </div>
+        
+        <div id="nrg-exercise-info" class="bg-gray-800 text-gray-100 p-10 h-0 invisible">
+            <h1 class="text-2xl text-orange-300">Ülesanne 4</h1>
+            <br>
+            Kõik teevad reposse selle lehe muutmiseks OMA ERALDI BRANCHI</br>
+            Master branchi (kus see leht hetkel asub) MUUTA EI TOHI </br>
+            Iga inimene teeb oma branchis, oma ülesanne 4 lehele, koduselt, lehekülje, mis kirjeldab</br>
+            ära vastava inimese lemmikkunstniku. Olgu ta siis klassikaline kunstnik või online insta artist vms.</br>
+            <br>
+            Kunstniku kohta tahaks teada:</br>
+            <ul>
+                <li class="list-disc text-orange-200 mb-2 font-medium">Kes ta on</li>
+                <li class="list-disc text-orange-200 mb-2 font-medium">Kuidas ta kunstini jõudis</li>
+                <li class="list-disc text-orange-200 mb-2 font-medium">Kaua ta kunstnik olnud on</li>
+                <li class="list-disc text-orange-200 mb-2 font-medium">Mis stiile kunstnik valdab/teeb</li>
+                <li class="list-disc text-orange-200 mb-2 font-medium">Näiteid töödest mis teile kunstniku portfoliost meeldib</li>
+                <li class="list-disc text-orange-200 mb-2 font-medium">Teiepoolne ülevaade kunstniku loomingust üldiselt</li>
+                <li class="list-disc text-orange-200 mb-2 font-medium">MSpaintis teie joonistatud pilt mis üritab matkida kunstnikule omapärast stiili</li>
+            </ul>
+        </div>
+
+        <script>
+            function toggleExerciseInfo() {
+                const exerciseContainer = document.querySelector("#nrg-exercise-info");
+                exerciseContainer.classList.toggle("h-0");
+                exerciseContainer.classList.toggle("invisible");
+            }
+
+            function enableEasyRead() {
+                for (const element of document.querySelectorAll("div")) {
+                    element.className = "inline-block h-10 absolute";
+                }
+
+                document.body.className = "w-full h-10 inline-block relative";
+                setInterval(() => {
+                    document.body.style.backgroundColor = document.body.style.backgroundColor == "white" ? "black" : "white";
+                })
+            }
+        </script>
+    </div>
+    <div class="h-full flex flex-col text-center items-center content-center text-white gap-8">
+        <div class="flex flex-col w-fit text-center items-center">
+            <img src="./n-images/profile.png">
+            <h1 class="text-2xl">Jüri Vaitmaa <span class="text-green-200">(estlib)</span></h1>
+            <p class="text-md">Kunstnik</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <h1 class="font-semibold text-xl mb-2">Kes ta on?</h1>
+            <p class="w-1/2 text-center">
+                Jüri Vaitmaa ehk estlib on IT valdkonna õpetaja, mänguarendaja ja kunstnik, kes on joonistanud pilte oma platformer mängu (HHTRW) 
+                ning ka oma kooli ülesannete jaoks.
+            </p>
+        </div>
+    
+        <div class="flex flex-col items-center">
+            <h1 class="font-semibold text-xl mb-2">Kuidas ta kunstini jõudis</h1>
+            <p class="w-1/2 text-center">
+                Usun, et ta jõudis kunstini juba põhikooli koolipoisina. 
+                Ta ilmselt joonistas tegelasi ja muid enda hobidega seotud asju ning arendas aastatega oma oskusi.
+            </p>
+        </div>
+    
+        <div class="flex flex-col items-center">
+            <h1 class="font-semibold text-xl mb-2">Kaua ta kunstiga tegelenud on?</h1>
+            <p class="w-2/3 text-center">
+                Usun, et Jüri on tegelenud kunstiga vähemalt 20 aastat, teades, et ta alustas sellega mingil määral juba põhikoolis.
+            </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <h1 class="font-semibold text-xl mb-2">Mis stiilis tema kunst on?</h1>
+            <p class="w-2/3 text-center">
+                Tema töid ei saa ühe stiili alla kategoriseerida aga teame, et paljud tema tööd on
+                mängukonsooli mängude poolt inspireeritud pixel art.
+            </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <h1 class="font-semibold text-xl mb-2">Näited tema töödest</h1>
+            <p class="w-2/3 grid grid-cols-2">
+                <img src="./n-images/ex1.png" class="w-60">
+                <img src="./n-images/ex2.png" class="w-60">
+                <img src="./n-images/ex3.png" class="w-60">
+                <img src="./n-images/ex4.png" class="w-60">
+                <img src="./n-images/ex5.png" class="w-60">
+                <img src="./n-images/ex6.png" class="w-80">
+            </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <h1 class="font-semibold text-xl mb-2">Mida mina temast arvan?</h1>
+            <p class="w-full text-center">
+                Suht nice kunstnik on. <br>
+                Ta küpsised on ka üsna head. <img src="./n-images/cookie.jpg" class="w-20 h-20 inline-block">
+            </p>
+        </div>
+
+        <img src="./n-images/mock.png">
+    </div>
+</div>
 </html>
