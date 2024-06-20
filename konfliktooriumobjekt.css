@@ -1,0 +1,55 @@
+.erectionsection-section {
+    background-color: rgb(0, 69, 21);
+    color: rgb(0, 160, 0);
+    font-family: "Comic Sans MS";
+}  
+.erectionsection-a {
+    color: rgb(141, 0, 176);
+    text-decoration: none;
+}
+.erectionsection-h1 {
+    background-color: rgb(52, 52, 52);
+    color: rgb(169, 169, 169);
+    font-family: "Comic Sans MS";
+}
+.erectionsection-th {
+    background-color: rgb(0, 179, 255);
+    color: rgb(255, 255, 255);
+}
+.separator {
+    background-color: rgb(152, 152, 152) !important;
+    color: rgb(145, 39, 39);
+    font-family: sans-serif;
+    text-align: center;
+}
+.separator h1{
+    background-color: rgb(152, 152, 152) !important;
+    color: rgb(145, 39, 39);
+    font-family: sans-serif;
+    text-align: center;
+}
+.yes{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(0, 81, 32) !important;
+}
+.no{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(81, 0, 0) !important;
+}
+.maybe{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(180, 120, 0) !important;
+}
+.somewhat{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(102, 180, 0) !important;
+}
+.soclose{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(180, 81, 0) !important;
+}
+.table{
+    border-style: solid;
+    border-width: 10px !important;
+    border-color: white !important;
+}
